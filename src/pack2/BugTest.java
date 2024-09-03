@@ -34,6 +34,5 @@ public class BugTest {
 		.multiPart("file",new File("C:\\Users\\abhiramchava\\Pictures\\Screenshots\\Screenshot (34).png"))
 		.post("rest/api/3/issue/{key}/attachments")
 		.then().log().all().assertThat().statusCode(200);			
-					 		 //Add attachment		 		 		 		 		 							}
 	}
 }
